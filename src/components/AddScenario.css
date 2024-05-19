@@ -1,0 +1,85 @@
+.add-scenario-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #292727;
+  }
+  
+  .add-scenario-container h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #ffffff;
+  }
+  
+  .add-scenario-container .form-group {
+    margin-bottom: 20px;
+    background-color: #4e4b4b;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+  }
+  
+  .add-scenario-container .form-group label {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .add-scenario-container .form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #444141;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333131;
+    color: #fff;
+  }
+  
+  .add-scenario-container .button-group {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .add-scenario-container button {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+  }
+  
+  .add-scenario-container .add-button {
+    background-color: #28a745;
+  }
+  
+  .add-scenario-container .add-button:hover {
+    background-color: #218838;
+  }
+  
+  .add-scenario-container .reset-button {
+    background-color: #ff8800;
+  }
+  
+  .add-scenario-container .reset-button:hover {
+    background-color: #e07b00;
+  }
+  
+  .add-scenario-container .go-back-button {
+    background-color: #007bff;
+  }
+  
+  .add-scenario-container .go-back-button:hover {
+    background-color: #0056b3;
+  }
+  
